@@ -88,24 +88,24 @@ function Footer() {
       {/* Footer Bottom */}
       <div className="mt-12 border-t border-gray-200 pt-8">
         <div className="flex justify-between items-center w-[90%] mx-auto">
-          <p className="text-gray-500">&copy; Webecy - All Rights Reserved. anusbutt</p>
+          <p className="text-gray-500">&copy; Webecy - All Rights Reserved. Arsalan Ahmed</p>
           <div className="flex space-x-4">
             <a
-              href="https://www.facebook.com/anusbutt"
+              href="https://www.facebook.com/"
               aria-label="Facebook"
               className="w-8 h-8 rounded-full bg-[#151875] flex items-center justify-center text-white hover:bg-blue-700"
             >
               <FaFacebookF />
             </a>
             <a
-              href="https://twitter.com/anusyousuf"
+              href="https://twitter.com/"
               aria-label="Twitter"
               className="w-8 h-8 rounded-full bg-[#151875] flex items-center justify-center text-white hover:bg-blue-700"
             >
               <FaTwitter />
             </a>
             <a
-              href="https://instagram.com/anusss._"
+              href="https://instagram.com/"
               aria-label="Instagram"
               className="w-8 h-8 rounded-full bg-[#151875] flex items-center justify-center text-white hover:bg-blue-700"
             >

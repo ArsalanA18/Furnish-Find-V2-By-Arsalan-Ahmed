@@ -14,12 +14,12 @@ const TopBar = () => {
         <div className="flex items-center gap-6">
           {/* Email */}
           <a
-            href="mailto:mhhasanul@gmail.com"
+            href="mailto:Arsalan23c@gmail.com"
             className="flex items-center gap-2 hover:text-gray-200"
             aria-label="Email address"
           >
             <FaEnvelope />
-            <span>buttanus3@gmail.com</span>
+            <span>Arsalan23c@gmail.com</span>
           </a>
           {/* Phone */}
           <a
