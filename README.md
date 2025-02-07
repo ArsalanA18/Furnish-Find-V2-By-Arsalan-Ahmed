@@ -82,6 +82,6 @@ Deployment: Vercel
 
 Live URL: [[Deployed Link]](https://furnish-find-v2-by-arsalan-ahmed.vercel.app/
 
-GitHub Repository: [[Repo Link]](https://github.com/ArsalanA18/Furnish-Find-V2-By-Arsalan-Ahmed)
+GitHub Repository: [[Repo Link](https://github.com/ArsalanA18/Furnish-Find-V2-By-Arsalan-Ahmed)
 
 ✨ Created with passion by Arsalan Ahmed 🚀
