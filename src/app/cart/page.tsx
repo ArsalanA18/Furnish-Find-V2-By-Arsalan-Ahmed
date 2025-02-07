@@ -180,13 +180,13 @@ const CartPage = () => {
           <div className="max-w-6xl mx-auto mt-8 bg-white p-6 rounded-2xl shadow-lg">
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-semibold text-gray-900">Total:</h2>
-              <p className="text-2xl font-bold text-blue-600">
+              <p className="text-2xl font-bold text-[#FB2E86]">
                 ${calculateTotal().toFixed(2)}
               </p>
             </div>
             <button
               onClick={handleProceed}
-              className="mt-6 w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-300 shadow-md hover:shadow-lg"
+              className="mt-6 w-full px-6 py-3 bg-[#FB2E86] to-blue-600 text-white font-semibold rounded-lg hover:bg-[#9b2c5c] transition-all duration-300 shadow-md hover:shadow-lg"
             >
               Proceed to Checkout
             </button>
