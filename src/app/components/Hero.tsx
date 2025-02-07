@@ -34,7 +34,7 @@ function Hero() {
 
           {/* Bold Heading */}
           <h1 className="text-2xl md:text-4xl font-bold text-black leading-tight mb-4">
-            New Furniture Collection Trends in 2020
+            New Furniture Collection Trends in 2025
           </h1>
 
           {/* Description */}
