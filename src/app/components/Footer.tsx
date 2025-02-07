@@ -21,7 +21,7 @@ function Footer() {
       <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* First Section */}
         <div>
-          <h1 className="text-[#151875] text-3xl font-bold mb-4">Hekto</h1>
+          <h1 className="text-[#151875] text-3xl font-bold mb-4">Furnish & Find</h1>
           <div className="flex items-center border border-gray-300 rounded-md overflow-hidden mb-4">
             <input
               type="email"
@@ -88,7 +88,7 @@ function Footer() {
       {/* Footer Bottom */}
       <div className="mt-12 border-t border-gray-200 pt-8">
         <div className="flex justify-between items-center w-[90%] mx-auto">
-          <p className="text-gray-500">&copy; Webecy - All Rights Reserved. Arsalan Ahmed</p>
+          <p className="text-gray-500">&copy; Furnish & Find - All Rights Reserved. Arsalan Ahmed</p>
           <div className="flex space-x-4">
             <a
               href="https://www.facebook.com/"
