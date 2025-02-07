@@ -1,0 +1,20 @@
+Documentation: Hackathon Marketplace Website - Day 4 (Next.js & Sanity) By Arsalan Ahmed
+
+This report details the progress made on Day 4 of development, focusing on search functionality, dynamic product display, the "Add to Cart" feature, and implementation of top category browsing using Next.js and Sanity.
+
+1. Search Functionality:
+
+Implementation: A search bar was implemented using Next.js. Product searches are performed via a GROQ query against the Sanity dataset. Results are displayed dynamically.
+Challenges: Optimizing the GROQ query for efficient and relevant search results was the primary challenge.
+2. Dynamic Product Display:
+
+Implementation: The existing Sanity product schema was utilized. Products are fetched using a GROQ query and rendered dynamically using JSX and next/image for optimized image handling.
+Challenges: Correctly handling and displaying image URLs from Sanity required attention.
+3. Add to Cart Feature:
+
+Implementation: localStorage is used to store cart data. An "Add to Cart" button with event handling was implemented, along with the necessary logic to update the cart. Optional: Consider using React Context for managing cart state in the future for more complex interactions.
+Challenges: Ensuring the cart display updates correctly and reflects the current state was the main challenge.
+4. Top Categories Implementation:
+
+Implementation: The Sanity category schema was used. Categories are fetched via a GROQ query and rendered dynamically with JSX. Navigation to individual category pages was also implemented.
+Challenges: Defining and determining the criteria for "top" categories (e.g., most popular, most recently added) requires further consideration and implementation.
