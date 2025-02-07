@@ -115,7 +115,7 @@ const LatestProducts =  () => {
                 )}
               </div>
             </div>
-            <Button className="bg-gradient-to-t from-blue-500 to-purple-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-transform duration-300 ease-in-out"
+            <Button className="bg-[#FB2E86] text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-transform duration-300 ease-in-out"
             onClick={((e) => handleaddToCart(e, product))}
             >
               Add to Cart

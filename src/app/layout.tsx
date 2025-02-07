@@ -18,11 +18,11 @@ const geistMono = localFont({
 
 // Set up metadata for SEO and accessibility
 export const metadata: Metadata = {
-  title: "Responsive Design Website",
-  description: "A modern and responsive website built with Next.js.",
+  title: "Furnish & Find",
+  description: "A modern and responsive website By Arsalan Ahmed built with Next.js.",
   openGraph: {
-    title: "Responsive Design Website",
-    description: "A modern and responsive website built with Next.js.",
+    title: "Furnish & Find",
+    description: "A modern and responsive website Arsalan Ahmed built with Next.js.",
     url: "https://yourwebsite.com",
     siteName: "My Responsive Site",
   },

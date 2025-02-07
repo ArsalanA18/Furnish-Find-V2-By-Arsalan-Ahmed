@@ -81,7 +81,7 @@ export default async function ProductPage({ params }: { params: Promise<ProductP
                   {/* Use the Client Component for Add to Cart button */}
                   <AddToCartButton product={product} />
                   <Link href={"/checkout"}>
-                    <button className="mt-4 w-full py-3 bg-gray-900 text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors duration-300">
+                    <button className="mt-4 w-full py-3 bg-[#FB2E86] text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors duration-300">
                       Buy Now
                     </button>
                   </Link>

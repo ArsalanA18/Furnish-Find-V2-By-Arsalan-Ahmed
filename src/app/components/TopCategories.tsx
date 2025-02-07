@@ -65,7 +65,7 @@ function TopCategories() {
 
               {/* Hover View Shop Button */}
               <button
-                className="absolute bottom-2 bg-[#08D15F] text-white px-3 py-1 text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                className="absolute bottom-2 bg-[#FB2E86] text-white px-3 py-1 text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 aria-label={`View shop for ${product.name}`}  // Accessibility improvement
               >
                 View Shop
@@ -75,7 +75,7 @@ function TopCategories() {
             {/* Category Name and Price */}
             <h3 className="text-[#3F509E] font-bold mt-4">{product.name}</h3>
             <p className="text-gray-600">{product.price}</p>
-            <Button className="bg-gradient-to-t from-blue-500 to-purple-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-transform duration-300 ease-in-out"
+            <Button className="bg-[#FB2E86] text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-transform duration-300 ease-in-out"
             onClick={((e) => HandleAddToCart(e, product))}
             >
               Add to Cart

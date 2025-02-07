@@ -203,7 +203,7 @@ const ShopListProducts = () => {
                 {/* View Details Button */}
                 <div className="absolute bottom-0 w-full text-white text-center py-2 opacity-0 group-hover:opacity-100 transition-opacity">
                   <Link href={`/product/${product.slug?.current}`}>
-                    <button className="flex text-center justify-center w-full lg:w-[calc(100%/3)] py-2 text-sm bg-[#151875] rounded-full hover:bg-[#151875] transition-colors">
+                    <button className="flex text-center justify-center w-full lg:w-[calc(100%/3)] py-2 text-sm bg-[#FB2E86] rounded-full hover:bg-[#9b2c5c] transition-colors">
                       View Details
                     </button>
                   </Link>

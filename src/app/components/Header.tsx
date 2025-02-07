@@ -27,7 +27,7 @@ function Header() {
           {/* Left Section: Logo and Search Bar */}
           <div className="flex items-center gap-8">
             {/* Logo */}
-            <h1 className="text-3xl font-bold">Hekto</h1>
+            <h1 className="text-3xl font-bold">Furnish & Find</h1>
 
             {/* Search Bar */}
            <SearchBar />

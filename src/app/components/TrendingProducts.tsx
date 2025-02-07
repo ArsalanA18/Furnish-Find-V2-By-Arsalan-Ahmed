@@ -68,7 +68,7 @@ const TrendingProducts = () => {
               <p className="text-[#3F509E] font-bold inline-block">{product.price}</p>
               <span className="text-gray-500 line-through ml-2">{product.originalPrice}</span>
             </div>
-            <Button className="bg-gradient-to-t from-blue-500 to-purple-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-transform duration-300 ease-in-out"
+            <Button className="bg-[#FB2E86] text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-transform duration-300 ease-in-out"
             onClick={((e) => handleAddToCart(e, product))}
             >
               Add to Cart

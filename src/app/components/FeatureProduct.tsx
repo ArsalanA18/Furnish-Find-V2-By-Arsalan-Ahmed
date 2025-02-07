@@ -88,7 +88,7 @@ const FeatureProducts = () => {
             {/* Add to Cart Button */}
             <div className="absolute bottom-0 w-full text-white text-center py-2 opacity-0 group-hover:opacity-100 transition-opacity">
               <Link href={`/product/${product.slug?.current}`}>
-                <button className="w-full py-2 text-sm bg-[#08D15F] hover:bg-green-700 transition-colors">
+                <button className="w-full py-2 text-sm bg-[#FB2E86] hover:bg-[#9b2c5c] transition-colors">
                   View Details
                 </button>
               </Link>
@@ -111,7 +111,7 @@ const FeatureProducts = () => {
           {/* Add to Cart Button */}
           <div className="p-4">
             <Button
-              className="w-full bg-gradient-to-t from-blue-500 to-purple-500 text-white font-semibold py-2 px-4  rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+              className="w-full bg-[#FB2E86] text-white font-semibold py-2 px-4  rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
               onClick={(e) => handleAddToCart(e, product)}
             >
               Add to Cart
